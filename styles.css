@@ -58,15 +58,41 @@ nav ul li a:hover {
 /* HERO SECTION */
 
 #hero {
-    width: 90%;
     margin: 40px;
     max-width: 600px;
-    display: grid;
 }
 
 #hero h2 {
     font-weight: lighter;
     color: var(--midnight-blue);
+    font-size: 1.6rem;
+}
+
+/* OFFERINGS SECTION */
+
+#offerings {
+    max-width: 600px;
+    margin: 40px;
+}
+
+#offerings h2 {
+    font-weight: lighter;
+    color: var(--midnight-blue);
+    font-size: 1.6rem;
+}
+
+#offeringsCards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+    background-color: var(--olive-green);
+    padding: 10px;
+}
+
+#basket {
+    grid-row-start: 2;
+    grid-column-start: 1;
+    grid-column-end: 3;
 }
 
 /* IMPORTED FONTS */
